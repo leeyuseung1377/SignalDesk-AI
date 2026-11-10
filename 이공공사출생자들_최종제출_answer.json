@@ -1,0 +1,1046 @@
+{
+  "task": "SignalDesk AI 품질 클레임 재발 관계 및 이번 조치 증빙 검토",
+  "unit": "클레임 사건·품번·로트·이번 조치 1개 = 문서 묶음 PDF 1개 = 판정 1건",
+  "output_keys": [
+    "claim_id",
+    "recurrence",
+    "verification",
+    "reason_codes",
+    "missing_evidence",
+    "evidence_refs",
+    "next_action"
+  ],
+  "decision_values": [
+    "SUSPECTED",
+    "DIFFERENT_CAUSE",
+    "NO_CANDIDATE",
+    "UNKNOWN",
+    "PASS",
+    "FAIL",
+    "INCONCLUSIVE",
+    "REVIEW_CLOSURE",
+    "REWORK",
+    "REQUEST_EVIDENCE",
+    "HUMAN_REVIEW"
+  ],
+  "cases": [
+    {
+      "case_id": "FT01",
+      "file": "이공공사출생자들_5유형_FT01.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서",
+        "업무 메신저 대화 캡처"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-001",
+        "recurrence": "SUSPECTED",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT01.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT01.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT01.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT01.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT01.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT01.pdf",
+            "page": 7
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT01.pdf",
+            "page": 8
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT02",
+      "file": "이공공사출생자들_5유형_FT02.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-002",
+        "recurrence": "SUSPECTED",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT02.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT02.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT02.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT02.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT02.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT02.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT03",
+      "file": "이공공사출생자들_5유형_FT03.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-003",
+        "recurrence": "SUSPECTED",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT03.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT03.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT03.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT03.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT03.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT03.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT04",
+      "file": "이공공사출생자들_5유형_FT04.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-004",
+        "recurrence": "SUSPECTED",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT04.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT04.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT04.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT04.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT04.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT04.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT05",
+      "file": "이공공사출생자들_5유형_FT05.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-005",
+        "recurrence": "SUSPECTED",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT05.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT05.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT05.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT05.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT05.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT05.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT06",
+      "file": "이공공사출생자들_5유형_FT06.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서",
+        "업무 메신저 대화 캡처"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-006",
+        "recurrence": "SUSPECTED",
+        "verification": "FAIL",
+        "reason_codes": [
+          "CRITERIA_FAILED"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT06.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT06.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT06.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT06.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT06.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT06.pdf",
+            "page": 7
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT06.pdf",
+            "page": 8
+          }
+        ],
+        "next_action": "REWORK"
+      }
+    },
+    {
+      "case_id": "FT07",
+      "file": "이공공사출생자들_5유형_FT07.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-007",
+        "recurrence": "SUSPECTED",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT07.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT07.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT07.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT07.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT07.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT07.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT08",
+      "file": "이공공사출생자들_5유형_FT08.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-008",
+        "recurrence": "NO_CANDIDATE",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT08.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT08.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT08.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT08.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT08.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT08.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT09",
+      "file": "이공공사출생자들_5유형_FT09.pdf",
+      "documents": [
+        "조치 후 검사 성적서",
+        "검사 기준서",
+        "고객 클레임 통보서",
+        "이번 조치 결과서",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "제품 식별 라벨"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-009",
+        "recurrence": "SUSPECTED",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT09.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT09.pdf",
+            "page": 2
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT09.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT09.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT09.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT09.pdf",
+            "page": 6
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT10",
+      "file": "이공공사출생자들_5유형_FT10.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "과거 조치 결과서",
+        "조치 후 검사 성적서",
+        "제품 식별 라벨",
+        "검사 기준서",
+        "과거 8D 리포트",
+        "이번 조치 결과서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-010",
+        "recurrence": "SUSPECTED",
+        "verification": "FAIL",
+        "reason_codes": [
+          "CRITERIA_FAILED"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT10.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT10.pdf",
+            "page": 2
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT10.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT10.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT10.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT10.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REWORK"
+      }
+    },
+    {
+      "case_id": "FT11",
+      "file": "이공공사출생자들_5유형_FT11.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-011",
+        "recurrence": "DIFFERENT_CAUSE",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT11.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT11.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT11.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT11.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT11.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT11.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT12",
+      "file": "이공공사출생자들_5유형_FT12.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서",
+        "현장 교대 메모 촬영본"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-012",
+        "recurrence": "SUSPECTED",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT12.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT12.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT12.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT12.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT12.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT12.pdf",
+            "page": 7
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT12.pdf",
+            "page": 8
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT13",
+      "file": "이공공사출생자들_5유형_FT13.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-013",
+        "recurrence": "SUSPECTED",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT13.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT13.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT13.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT13.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT13.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT13.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT14",
+      "file": "이공공사출생자들_5유형_FT14.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-014",
+        "recurrence": "SUSPECTED",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT14.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT14.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT14.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT14.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT14.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT14.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT15",
+      "file": "이공공사출생자들_5유형_FT15.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-015",
+        "recurrence": "SUSPECTED",
+        "verification": "PASS",
+        "reason_codes": [
+          "CRITERIA_MET"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT15.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT15.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT15.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT15.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT15.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT15.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REVIEW_CLOSURE"
+      }
+    },
+    {
+      "case_id": "FT16",
+      "file": "이공공사출생자들_5유형_FT16.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서",
+        "업무 메신저 대화 캡처(재전송)"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-016",
+        "recurrence": "SUSPECTED",
+        "verification": "INCONCLUSIVE",
+        "reason_codes": [
+          "CURRENT_FIELD_UNREADABLE"
+        ],
+        "missing_evidence": [
+          "이번 조치 후 검사 성적서의 흠집 불량 수 판독 가능한 값"
+        ],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT16.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT16.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT16.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT16.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT16.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT16.pdf",
+            "page": 7
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT16.pdf",
+            "page": 8
+          }
+        ],
+        "next_action": "REQUEST_EVIDENCE"
+      }
+    },
+    {
+      "case_id": "FT17",
+      "file": "이공공사출생자들_5유형_FT17.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "이메일 전달 화면"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-017",
+        "recurrence": "SUSPECTED",
+        "verification": "INCONCLUSIVE",
+        "reason_codes": [
+          "CURRENT_DOCUMENT_MISSING"
+        ],
+        "missing_evidence": [
+          "이번 조치 후 검사 성적서"
+        ],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT17.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT17.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT17.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT17.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT17.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT17.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REQUEST_EVIDENCE"
+      }
+    },
+    {
+      "case_id": "FT18",
+      "file": "이공공사출생자들_5유형_FT18.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서",
+        "조치 후 검사 성적서",
+        "이메일 회신 화면"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-018",
+        "recurrence": "SUSPECTED",
+        "verification": "INCONCLUSIVE",
+        "reason_codes": [
+          "CURRENT_RECORD_CONFLICT"
+        ],
+        "missing_evidence": [
+          "동일 검사 기록의 충돌을 해소하는 정정·대체 관계 확인 자료"
+        ],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT18.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT18.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT18.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT18.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT18.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT18.pdf",
+            "page": 7
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT18.pdf",
+            "page": 8
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT18.pdf",
+            "page": 9
+          }
+        ],
+        "next_action": "HUMAN_REVIEW"
+      }
+    },
+    {
+      "case_id": "FT19",
+      "file": "이공공사출생자들_5유형_FT19.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-019",
+        "recurrence": "SUSPECTED",
+        "verification": "INCONCLUSIVE",
+        "reason_codes": [
+          "CURRENT_POLICY_AMBIGUOUS"
+        ],
+        "missing_evidence": [
+          "적용 검사 기준서의 단위·환산 관계 확인 자료"
+        ],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT19.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT19.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT19.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT19.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT19.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT19.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "HUMAN_REVIEW"
+      }
+    },
+    {
+      "case_id": "FT20",
+      "file": "이공공사출생자들_5유형_FT20.pdf",
+      "documents": [
+        "고객 클레임 통보서",
+        "제품 식별 라벨",
+        "과거 8D 리포트",
+        "과거 조치 결과서",
+        "이번 조치 결과서",
+        "검사 기준서",
+        "조치 후 검사 성적서"
+      ],
+      "answer": {
+        "claim_id": "CLM-FT26-020",
+        "recurrence": "SUSPECTED",
+        "verification": "FAIL",
+        "reason_codes": [
+          "CRITERIA_FAILED"
+        ],
+        "missing_evidence": [],
+        "evidence_refs": [
+          {
+            "file": "이공공사출생자들_5유형_FT20.pdf",
+            "page": 1
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT20.pdf",
+            "page": 3
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT20.pdf",
+            "page": 4
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT20.pdf",
+            "page": 5
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT20.pdf",
+            "page": 6
+          },
+          {
+            "file": "이공공사출생자들_5유형_FT20.pdf",
+            "page": 7
+          }
+        ],
+        "next_action": "REWORK"
+      }
+    }
+  ]
+}
